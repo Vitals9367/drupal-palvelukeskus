@@ -6,8 +6,7 @@ Description of your project.
 
 Env | Branch | Drush alias | URL
 --- | ------ | ----------- | ---
-development | * | - | http://yoursite.docker.so/
-production | main | @main | TBD
+development | main | - | https:///drupal-palvelukeskus.docker.so/
 
 ## Requirements
 
@@ -30,6 +29,13 @@ And following times to start the environment:
 ``
 $ make up
 ``
+
+Create site based on database export:
+``
+$ make fresh
+``
+
+DB syncing from server is disabled for now, uncomment line 45 at `tools/make/project/install.mk` to enable.
 
 NOTE: Change these according of the state of your project.
 
