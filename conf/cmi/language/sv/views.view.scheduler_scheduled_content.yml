@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      fields:
+        status:
+          label: Status
+      filters:
+        status:
+          expose:
+            label: Status
+  overview:
+    display_options:
+      tab_options:
+        title: Innehåll
+  user_page:
+    display_options:
+      tab_options:
+        title: Innehåll

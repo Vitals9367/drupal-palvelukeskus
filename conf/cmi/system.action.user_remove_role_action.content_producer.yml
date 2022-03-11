@@ -1,0 +1,14 @@
+uuid: 831e39fa-70cc-4c3d-b95f-fc2e3ae63458
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_producer
+  module:
+    - user
+id: user_remove_role_action.content_producer
+label: 'Remove the Content producer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: content_producer

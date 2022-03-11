@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      fields:
+        status:
+          label: Tila
+      filters:
+        status:
+          expose:
+            label: Tila
+  overview:
+    display_options:
+      tab_options:
+        title: Sisältö
+  user_page:
+    display_options:
+      tab_options:
+        title: Sisältö

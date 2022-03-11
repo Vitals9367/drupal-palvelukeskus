@@ -1,0 +1,20 @@
+uuid: 717d2cd3-21e4-4c4c-9b9a-ef7d2d0ed621
+langcode: en
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+    - media
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'view media'
+  - 'access toolbar'
+  - 'view remote entities'

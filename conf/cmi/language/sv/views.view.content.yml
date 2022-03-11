@@ -1,0 +1,18 @@
+label: Innehåll
+display:
+  default:
+    display_options:
+      title: Innehåll
+      fields:
+        status:
+          label: Status
+      filters:
+        status:
+          expose:
+            label: Status
+  page_1:
+    display_options:
+      menu:
+        title: Innehåll
+      tab_options:
+        title: Innehåll
