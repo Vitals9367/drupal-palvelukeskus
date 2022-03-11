@@ -13,6 +13,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/hdbt": "^2.0",
         "drupal/hdbt_admin": "^1.0",
+        "drupal/helfi_api_base": "^2.1",
         "drupal/helfi_azure_fs": "^1.0",
         "drupal/helfi_drupal_tools": "dev-main",
         "drupal/helfi_platform_config": "^2.0",
@@ -34,7 +35,14 @@
     },
     "config": {
         "optimize-autoloader": true,
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true,
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true
+        }
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
