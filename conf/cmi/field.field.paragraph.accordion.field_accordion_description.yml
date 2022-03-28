@@ -1,4 +1,4 @@
-uuid: 6816ab7d-2b32-4441-89d8-4a8ec83c9bc2
+uuid: 610222b0-9326-4672-a7d7-9815eb5acb61
 langcode: en
 status: true
 dependencies:
@@ -10,11 +10,10 @@ dependencies:
     - text
 third_party_settings:
   allowed_formats:
-    minimal: minimal
-    full_html: '0'
-    plain_text: '0'
+    allowed_formats:
+      - minimal
 _core:
-  default_config_hash: uEzIGn1KjuoCPFcfNHwUWo6FjkliBTZwezT6I1rX2nk
+  default_config_hash: gVzq6qdbsUyvmWQ8IChMyCFTZU-X4iYXHPs6DJJhHeg
 id: paragraph.accordion.field_accordion_description
 field_name: field_accordion_description
 entity_type: paragraph

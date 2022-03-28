@@ -1,4 +1,4 @@
-uuid: bb960a27-4fda-45a5-a80d-e4a0439277b1
+uuid: 32b364c6-35a9-49ec-8ba1-fe734d56871a
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
     - media.type.image
     - node.type.landing_page
 _core:
-  default_config_hash: IkvlfALa9XE92DJKSKdMC5a_-84naIt9LFXU0reePns
+  default_config_hash: tjssmYxe5qbWn7P7--dg9YMnck83F4dImAQiwIz4eJs
 id: node.landing_page.field_liftup_image
 field_name: field_liftup_image
 entity_type: node
 bundle: landing_page
 label: 'Liftup image'
-description: ''
+description: 'Image is visible on the content page, content listings, search results and on social media.'
 required: false
 translatable: false
 default_value: {  }

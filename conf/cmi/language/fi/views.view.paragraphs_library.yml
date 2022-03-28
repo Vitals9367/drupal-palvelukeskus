@@ -1,6 +1,11 @@
 display:
   default:
+    display_title: Oletus
     display_options:
       fields:
+        langcode:
+          label: Kieli
         changed:
           label: Muuttunut
+        operations:
+          label: Toimenpiteet

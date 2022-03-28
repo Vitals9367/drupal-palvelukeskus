@@ -2,9 +2,5 @@ display:
   default:
     display_options:
       fields:
-        status:
-          label: Status
-      filters:
-        status:
-          group_info:
-            label: Status
+        operations:
+          label: Funktioner

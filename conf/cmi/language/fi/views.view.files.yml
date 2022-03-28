@@ -8,3 +8,9 @@ display:
         status:
           expose:
             label: Tila
+  page_2:
+    display_options:
+      arguments:
+        fid:
+          exception:
+            title: Kaikki

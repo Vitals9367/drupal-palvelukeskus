@@ -1,4 +1,4 @@
-uuid: c10aa2a7-61d6-42bf-96c6-50f59a6c6053
+uuid: 7c8c402f-57e9-4fa3-a7ad-e5bdc7cdc5f9
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,13 @@ dependencies:
     - field.storage.node.field_author
     - node.type.article
 _core:
-  default_config_hash: 1oqobfI8cP7lwC92-ke2O_wtHzD16wfuRS5zOSSxEVY
+  default_config_hash: h5Q5iCXABeUhLT2dj_Z9BAgRYRh0P4HR5XQGsDHfYv4
 id: node.article.field_author
 field_name: field_author
 entity_type: node
 bundle: article
 label: Author
-description: ''
+description: 'Can be left empty.'
 required: false
 translatable: true
 default_value: {  }

@@ -1,4 +1,4 @@
-uuid: c0fe96cd-77ee-42cb-8fd6-40ab1cf909e4
+uuid: 59f47e86-3bc7-4dd5-9b6c-c8f7b63f5e89
 langcode: en
 status: true
 dependencies:
@@ -10,11 +10,10 @@ dependencies:
     - text
 third_party_settings:
   allowed_formats:
-    minimal: minimal
-    full_html: '0'
-    plain_text: '0'
+    allowed_formats:
+      - minimal
 _core:
-  default_config_hash: wIwMdo6OAIW_0F8UPMdoBOqJIF0AGhXSa-2lmStWKWc
+  default_config_hash: d13DTD8H9PPvZas-ZFs8bPLSEVqVVXxenId3xlLBaiM
 id: paragraph.sidebar_text.field_sidebar_text_text
 field_name: field_sidebar_text_text
 entity_type: paragraph

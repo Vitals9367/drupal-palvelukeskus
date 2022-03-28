@@ -1,4 +1,4 @@
-uuid: 9e9a5c11-69bf-4ad2-b010-4e7633c4def4
+uuid: 6a946bef-e7e2-4197-8f81-973ba856a6b3
 langcode: en
 status: true
 dependencies:
@@ -23,10 +23,10 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: 55S0TlpZeQGEnh_bhvpAW797f2LnTyORBp4AUhX2qwI
+  default_config_hash: N0f2nl1M2O2L772ewJA2NcuZJhq0ypn1Yf1hSuTExto
 name: Article
 type: article
-description: 'Content type for article-like content with rich editing capabilities.'
+description: 'Content type for news and other topical content.'
 help: ''
 new_revision: true
 preview_mode: 1

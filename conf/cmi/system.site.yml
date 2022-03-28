@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 74a53f41-76ad-487f-9986-8c723163f253
+uuid: 360823e2-45fe-4a7a-994e-7d891be42cd6
 name: Palvelukeskus
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

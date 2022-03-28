@@ -4,6 +4,8 @@ display:
       fields:
         status:
           label: Tila
+        operations:
+          label: Toimenpiteet
       filters:
         status:
           group_info:
