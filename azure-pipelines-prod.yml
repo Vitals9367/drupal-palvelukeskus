@@ -44,7 +44,6 @@ resources:
     source: deploy-drupal-stage
     # Run deploy-dev pipeline when any run of build pipeline completes
     trigger: true
-
 extends:
   # Filename in Azure DevOps Repository (note possible -ui or -api)
   # Django example: azure-pipelines-PROJECTNAME-api-master.yml
