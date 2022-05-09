@@ -4,8 +4,8 @@ trigger:
   batch: true
   branches:
     include:
-#     - release/*
-    - refs/tags/release-*
+    - release/*
+#     - refs/tags/release-*
   paths:
     exclude:
     - README.md
