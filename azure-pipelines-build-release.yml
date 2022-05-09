@@ -5,7 +5,7 @@ trigger:
   branches:
     include:
     - release/*
-#     - refs/tags/release-*
+    - refs/tags/*
   paths:
     exclude:
     - README.md
