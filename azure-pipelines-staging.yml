@@ -37,7 +37,7 @@ resources:
     type: git
     # Azure DevOps project/repository
     name: helfi-palvelukeskus/helfi-palvelukeskus-pipelines
-pipelines:
+ pipelines:
   # Pipeline trigger
   - pipeline: build
     source: build-drupal-release
