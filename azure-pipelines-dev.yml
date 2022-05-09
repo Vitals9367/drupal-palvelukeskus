@@ -40,7 +40,7 @@ resources:
   pipelines:
   # Pipeline trigger
   - pipeline: build
-    source: helfi-palvelukeskus-build-drupal-main
+    source: build-drupal-main
     # Run deploy-dev pipeline when any run of build pipeline completes
     trigger: true
 
