@@ -40,7 +40,7 @@ resources:
     name: helfi-palvelukeskus/helfi-palvelukeskus-pipelines
  pipelines:
   # Pipeline trigger
-  - pipeline: build
+  - pipeline: deploy
     source: deploy-drupal-stage
     # Run deploy-dev pipeline when any run of build pipeline completes
     trigger: true
