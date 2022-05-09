@@ -32,7 +32,7 @@ pool: Default
 #  default: latest
 
 resources:
-  repositories:
+ repositories:
   # Azure DevOps repository
   - repository: helfi-palvelukeskus-pipelines
     type: git
